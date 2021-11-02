@@ -1,0 +1,139 @@
+* {
+ padding: 0;
+ margin: 0;
+ font-size: 40px;
+  }
+
+
+.header {
+  
+  display: flex;
+}
+.header div {
+   padding: 0px;
+   margin: 0px;
+   color: white;
+   background: #1F2937;
+  
+   flex: 1 1
+     0%;
+ }
+
+ .logo {
+  
+
+   dftext-align: center;
+ }
+ .logo div {
+  
+   text-align: center;
+   
+ }
+
+.links{
+   display: flex;
+
+}
+.links div {
+   font-size: 20px;
+
+   flex: 1 1 0%;
+
+}
+
+
+.one {
+background: #1F2937;
+
+height: 600px;
+display: flex;
+
+padding: 60px;
+
+}
+.one div {
+    background: gray;
+    border: 0px solid gray;
+    padding: 60px;
+    margin: 0px;
+    height: 300px;
+    width: 60px;
+    flex: 1 1
+     0%;
+  }
+  
+  /* only div.two is selected here */
+  .one .caja1 {
+     color: white;
+     font: bold; 
+
+   font-size: 48px bold white ;
+
+    padding: 10px;
+    margin: 60px;
+       flex: 2 1 0%;
+  }
+  .one .caja2 {
+      color: white;
+
+    padding: 10px;
+    margin: 60px;
+      flex: 2 1 0%;
+  }
+
+
+
+
+ .two {
+
+
+background: white;
+display: flex;
+align-items: center;
+justify-content: center;
+padding:16px;
+border: 80px solid white;
+gap: 8px;
+    
+ }
+
+
+.item  {
+  margin: 20px;
+   border: 5px solid gray;
+   background: rgb(173, 189, 173);
+flex: 1;
+   height: 230px;
+     
+ }
+ 
+
+
+
+
+
+ .three {
+
+    background: #E5E7EB;
+    font-size: 36px  #1F2937;
+display: flex;
+margin: 60px;
+padding: auto #E5E7EB ;
+
+ }
+
+ .quote {
+
+flex: auto;
+
+ }
+
+ .four {
+
+    background: white;
+ }
+ .five {
+
+    background: #1F2937;
+
+ }
