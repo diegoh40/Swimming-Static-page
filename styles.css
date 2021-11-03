@@ -3,6 +3,8 @@
  padding: 0px;
  margin: 0px;
 
+
+
   }
 
 
@@ -52,20 +54,26 @@ justify-content: center;
 
 .one {
 background: #1F2937;
-
-height: 400px;
 display: flex;
+align-items: center;
+justify-content: center;
+height:300px;
+gffwidth: 800px;
 
-padding: 60px;
+
+padding-left: 320px;
+padding-right: 320px;
+padding-bottom: 150px;
+padding-top: 100px;
 
 }
 .one div {
     background: gray;
     border: 0px solid gray;
-    padding: 60px;
+    fgfgpadding:90px;
     margin: 0px;
     height: 300px;
-    width: 60px;
+    fdfdwidth: 60px;
     flex: 1 1
      0%;
   }
@@ -74,12 +82,13 @@ padding: 60px;
   .one .caja1 {
      color: #F9FAF8;
      font: bold; 
+     
 
    font: 48px bold white ;
 
-    padding: 10px;
-    margin: 60px;
-       flex: 2 1 0%;
+    padding: 20px;
+    margin: 30px;
+       flex: 1 1 0%;
   }
 
   .one .caja1 .sign0 {
@@ -98,9 +107,9 @@ padding: 60px;
   .one .caja2 {
       color: white;
 
-    padding: 10px;
-    margin: 60px;
-      flex: 2 1 0%;
+    padding: 20px;
+    margin: 30px;
+      flex: 1 1 0%;
   }
 
 
@@ -116,6 +125,11 @@ justify-content: center;
 padding:16px;
 border: 80px solid white;
 gap: 8px;
+
+padding-left: 320px;
+padding-right: 320px;
+padding-bottom: 150px;
+padding-top: 100px;
     
  }
 
