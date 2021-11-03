@@ -1,17 +1,22 @@
 * {
- padding: 0;
- margin: 0;
- font-size: 40px;
+ 
+ padding: 0px;
+ margin: 0px;
+
   }
 
 
 .header {
-  
+
+   background: #1F2937 ;
+  height: 50px;
   display: flex;
+  align-items: center;
+justify-content: center;
 }
 .header div {
-   padding: 0px;
-   margin: 0px;
+   padding: 5px #1F2937;
+   margin: 5px #1F2937;
    color: white;
    background: #1F2937;
   
@@ -23,6 +28,8 @@
   
 
    dftext-align: center;
+   font: 24px;
+   color:#F9FAF8 ;
  }
  .logo div {
   
@@ -32,10 +39,11 @@
 
 .links{
    display: flex;
+   color: #F9FAF8;
 
 }
 .links div {
-   font-size: 20px;
+   font: 18px;
 
    flex: 1 1 0%;
 
@@ -45,7 +53,7 @@
 .one {
 background: #1F2937;
 
-height: 600px;
+height: 400px;
 display: flex;
 
 padding: 60px;
@@ -64,14 +72,28 @@ padding: 60px;
   
   /* only div.two is selected here */
   .one .caja1 {
-     color: white;
+     color: #F9FAF8;
      font: bold; 
 
-   font-size: 48px bold white ;
+   font: 48px bold white ;
 
     padding: 10px;
     margin: 60px;
        flex: 2 1 0%;
+  }
+
+  .one .caja1 .sign0 {
+
+
+
+      background: #3882f6;
+      flex: 1;
+      color: white;
+      height: 30px;
+      padding: 2px;
+      border:2px ;
+      font-size:15px;
+
   }
   .one .caja2 {
       color: white;
@@ -109,31 +131,84 @@ flex: 1;
  
 
 
+.three {
 
-
-
- .three {
-
-    background: #E5E7EB;
-    font-size: 36px  #1F2937;
+background: #E5E7EB;
 display: flex;
-margin: 60px;
-padding: auto #E5E7EB ;
+align-items: center;
+justify-content: center;
+margin: 60px #E5E7EB;
+padding: 80px ;
+font-size:40px #1F2937;
+
 
  }
 
  .quote {
 
-flex: auto;
+font-size:40px #1F2937;
+  
+ 
 
  }
 
  .four {
 
-    background: white;
+    background:white;
+display: flex;
+align-items: center;
+justify-content: center;
+height:200px ;
+padding:30px  white;
+border: 50px white;
+font:20px ;
+
+   
  }
+
+ .sign {
+
+   background: #3882f6;
+   display: flex;
+   align-items: center;
+   color: white;
+   height: 60px;
+   width: 500px;
+   padding: 20px;
+   border:10px ;
+   font-size:20px ;
+
+   
+ }
+
+
+ .sign3{
+   background: #3882f6;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+ flex: 1 1 0%;
+     
+      color: white;
+      height: 30px;
+      width:60px ;
+      padding: 25px white;
+      border:20px white;
+      font-size:15px ;
+
+
+ }
+
+
+
  .five {
 
     background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font: 20px white;
+color:white ;
+height: 150px;
 
  }
