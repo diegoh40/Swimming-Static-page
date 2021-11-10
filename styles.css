@@ -1,5 +1,6 @@
 * {
- 
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  padding: 0px;
  margin: 0px;
 
@@ -9,56 +10,71 @@
 
 
 .header {
+  color: white;
 
    background: #1F2937 ;
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
 justify-content: center;
 }
 .header div {
+  color: white;
    padding: 5px #1F2937;
    margin: 5px #1F2937;
    color: white;
    background: #1F2937;
   
-   flex: 1 1
-     0%;
+   flex: 1 1 0%;
  }
 
  .logo {
-  
+display: flex;
+  align-items: center;
+justify-content: center;
 
-   dftext-align: center;
+  
    font: 24px;
    color:#F9FAF8 ;
  }
+
  .logo div {
   
    text-align: center;
    
  }
-
 .links{
-   display: flex;
-   color: #F9FAF8;
+  display: flex;
+  margin-left: auto;
+ 
+padding:0px 100px 0px 0px ;
+
 
 }
-.links div {
-   font: 18px;
 
-   flex: 1 1 0%;
+ .links a {
+   text-decoration: none;
+   font-size: 24px ;
+  color: white;
+  padding: 10px;
+ 
 
-}
+
+ }
+
 
 
 .one {
+  
+  flex-basis:400px ;
 background: #1F2937;
 display: flex;
 align-items: center;
 justify-content: center;
+text-align: left;
 height:300px;
-gffwidth: 800px;
+gap: 30px;
+
 
 
 padding-left: 320px;
@@ -67,49 +83,60 @@ padding-bottom: 150px;
 padding-top: 100px;
 
 }
-.one div {
-    background: gray;
-    border: 0px solid gray;
-    fgfgpadding:90px;
-    margin: 0px;
-    height: 300px;
-    fdfdwidth: 60px;
-    flex: 1 1
-     0%;
-  }
-  
-  /* only div.two is selected here */
+
+ .one button {
+   background:#3882f6;
+   color:white;
+   display: block;
+   text-align: center;
+
+width: 110px;
+margin: 20px;
+border:  ;
+border-radius: 7px;
+
+ }
+
   .one .caja1 {
-     color: #F9FAF8;
-     font: bold; 
-     
+    color: white;
+    height: 300px;
 
-   font: 48px bold white ;
+  padding:0px;
+  margin: 0px;
+ 
+    flex: 1 1 0%;
+    gap: 10px;
+}
+.one .caja1 p{
+  opacity: 0.7;
 
-    padding: 20px;
-    margin: 30px;
-       flex: 1 1 0%;
+  margin: 40px 0px 0px 0px ;
+
+
+
+}
+  
+   
+
+  .one .caja2 img {
+    height: 300px;
+    border-radius:10px ;
+    
+
+   
   }
+ 
+.titulo1 {
+  color:grey;
+  font-size: 22px; ;
 
-  .one .caja1 .sign0 {
-
-
-
-      background: #3882f6;
-      flex: 1;
-      color: white;
-      height: 30px;
-      padding: 2px;
-      border:2px ;
-      font-size:15px;
-
-  }
-  .one .caja2 {
-      color: white;
-
-    padding: 20px;
-    margin: 30px;
-      flex: 1 1 0%;
+  padding-top: 30px;
+    margin: 3px;
+    text-align: center;
+    background: white;
+display: flex;
+align-items: center;
+justify-content: center;
   }
 
 
@@ -123,26 +150,52 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding:16px;
-border: 80px solid white;
+border top: 20px solid white;
 gap: 8px;
+flex-wrap: wrap;
+text-align: center;
+margin-top: 10px;
 
-padding-left: 320px;
-padding-right: 320px;
-padding-bottom: 150px;
-padding-top: 100px;
+border-bottom: 0px;
+
+padding-left: 150px;
+padding-right: 150px;
+padding-bottom: 60px;
+padding-top: 10px;
     
- }
+}
 
 
-.item  {
-  margin: 20px;
-   border: 5px solid gray;
-   background: rgb(173, 189, 173);
-flex: 1;
-   height: 230px;
+.two  {
+  display: flex;
+align-items: center;
+justify-content: center;
+
+  
      
  }
+
+ .two img{
+  
+  
+object-fit: cover;
+
+  width: 200px;
+  height: 200px;
+  border-radius:20px ;
+  margin: 4px;
+ border: 4px solid #3882f6;
+   background:white;
+flex: 1;
  
+   }
+
+.two p {
+
+  opacity: 0.7;
+}
+ 
+
 
 
 .three {
@@ -158,13 +211,10 @@ font-size:40px #1F2937;
 
  }
 
- .quote {
 
-font-size:40px #1F2937;
   
  
 
- }
 
  .four {
 
@@ -172,7 +222,7 @@ font-size:40px #1F2937;
 display: flex;
 align-items: center;
 justify-content: center;
-height:200px ;
+height:350px ;
 padding:30px  white;
 border: 50px white;
 font:20px ;
@@ -180,39 +230,49 @@ font:20px ;
    
  }
 
- .sign {
+ .siguenos {
 
    background: #3882f6;
-   display: flex;
+   display: row;
    align-items: center;
    color: white;
-   height: 60px;
+   height: 150px;
    width: 500px;
    padding: 20px;
    border:10px ;
-   font-size:20px ;
+   margin: 30px;
+   font-size:15px ;
+   border-radius: 20px;
+ }
 
    
+ 
+
+
+ .botoncorreo button {
+  margin: 40px 0px 0px 0px ;
+  border: 5px white;
+  background:grey;
+  color: white;
+  display: block;
+  text-align: center;
+
+width: 300px;
+height: 80px;
+border: 10px ;
+border-radius: 7px;
+
+
  }
+.siguenos p {
+  opacity: 0.7;
+  margin: 40px 70px 0px 0px ;
+}
+.siguenos button {
 
-
- .sign3{
-   background: #3882f6;
-   display: flex;
-   align-items: center;
-   justify-content: right;
- flex: 1 1 0%;
-     
-      color: white;
-      height: 30px;
-      width:60px ;
-      padding: 25px white;
-      border:20px white;
-      font-size:15px ;
-
-
- }
-
+  margin: 20px 0px 40px 0px ;
+height: 30px;
+}
 
 
  .five {
@@ -221,7 +281,7 @@ font:20px ;
     display: flex;
     align-items: center;
     justify-content: center;
-font: 20px white;
+font: 18px white;
 color:white ;
 height: 150px;
 
