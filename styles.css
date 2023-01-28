@@ -1,288 +1,203 @@
 * {
-
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- padding: 0px;
- margin: 0px;
-
-
-
-  }
-
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
 
 .header {
   color: white;
-
-   background: #1F2937 ;
+  background: #1f2937;
   height: 60px;
   display: flex;
   align-items: center;
-justify-content: center;
+  justify-content: center;
 }
+
 .header div {
   color: white;
-   padding: 5px #1F2937;
-   margin: 5px #1F2937;
-   color: white;
-   background: #1F2937;
-  
-   flex: 1 1 0%;
- }
+  padding: 5px #1f2937;
+  margin: 5px #1f2937;
+  background: #1f2937;
+  flex: 1 1 0%;
+}
 
- .logo {
-display: flex;
+.logo {
+  display: flex;
   align-items: center;
-justify-content: center;
+  justify-content: center;
+  font: 24px;
+  color: #f9faf8;
+}
 
-  
-   font: 24px;
-   color:#F9FAF8 ;
- }
+.logo div {
+  text-align: center;
+}
 
- .logo div {
-  
-   text-align: center;
-   
- }
-.links{
+.links {
   display: flex;
   margin-left: auto;
- 
-padding:0px 100px 0px 0px ;
-
-
+  padding: 0 100px 0 0;
 }
 
- .links a {
-   text-decoration: none;
-   font-size: 24px ;
+.links a {
+  text-decoration: none;
+  font-size: 24px;
   color: white;
   padding: 10px;
- 
-
-
- }
-
-
+}
 
 .one {
-  
-  flex-basis:400px ;
-background: #1F2937;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: left;
-height:300px;
-gap: 30px;
-
-
-
-padding-left: 320px;
-padding-right: 320px;
-padding-bottom: 150px;
-padding-top: 100px;
-
-}
-
- .one button {
-   background:#3882f6;
-   color:white;
-   display: block;
-   text-align: center;
-
-width: 110px;
-margin: 20px;
-border:  ;
-border-radius: 7px;
-
- }
-
-  .one .caja1 {
-    color: white;
-    height: 300px;
-
-  padding:0px;
-  margin: 0px;
- 
-    flex: 1 1 0%;
-    gap: 10px;
-}
-.one .caja1 p{
-  opacity: 0.7;
-
-  margin: 40px 0px 0px 0px ;
-
-
-
-}
-  
-   
-
-  .one .caja2 img {
-    height: 300px;
-    border-radius:10px ;
-    
-
-   
-  }
- 
-.titulo1 {
-  color:grey;
-  font-size: 22px; ;
-
-  padding-top: 30px;
-    margin: 3px;
-    text-align: center;
-    background: white;
-display: flex;
-align-items: center;
-justify-content: center;
-  }
-
-
-
-
- .two {
-
-
-background: white;
-display: flex;
-align-items: center;
-justify-content: center;
-padding:16px;
-border top: 20px solid white;
-gap: 8px;
-flex-wrap: wrap;
-text-align: center;
-margin-top: 10px;
-
-border-bottom: 0px;
-
-padding-left: 150px;
-padding-right: 150px;
-padding-bottom: 60px;
-padding-top: 10px;
-    
-}
-
-
-.two  {
+  flex-basis: 400px;
+  background: #1f2937;
   display: flex;
-align-items: center;
-justify-content: center;
-
-  
-     
- }
-
- .two img{
-  
-  
-object-fit: cover;
-
-  width: 200px;
-  height: 200px;
-  border-radius:20px ;
-  margin: 4px;
- border: 4px solid #3882f6;
-   background:white;
-flex: 1;
- 
-   }
-
-.two p {
-
-  opacity: 0.7;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  height: 300px;
+  gap: 30px;
+  padding-left: 320px;
+  padding-right: 320px;
+  padding-bottom: 150px;
+  padding-top: 100px;
 }
- 
 
-
-
-.three {
-
-background: #E5E7EB;
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 60px #E5E7EB;
-padding: 80px ;
-font-size:40px #1F2937;
-
-
- }
-
-
-  
- 
-
-
- .four {
-
-    background:white;
-display: flex;
-align-items: center;
-justify-content: center;
-height:350px ;
-padding:30px  white;
-border: 50px white;
-font:20px ;
-
-   
- }
-
- .siguenos {
-
-   background: #3882f6;
-   display: row;
-   align-items: center;
-   color: white;
-   height: 150px;
-   width: 500px;
-   padding: 20px;
-   border:10px ;
-   margin: 30px;
-   font-size:15px ;
-   border-radius: 20px;
- }
-
-   
- 
-
-
- .botoncorreo button {
-  margin: 40px 0px 0px 0px ;
-  border: 5px white;
-  background:grey;
+.one button {
+  background: #3882f6;
   color: white;
   display: block;
   text-align: center;
+  width: 110px;
+  margin: 20px;
+  border-radius: 7px;
+}
 
-width: 300px;
-height: 80px;
-border: 10px ;
-border-radius: 7px;
+.two img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 4px;
+  border: 4px solid #3882f6;
+  background: white;
+  flex: 1;
+}
 
+.two p {
+  opacity: 0.7;
+}
 
- }
+.siguenos {
+  background: #3882f6;
+  display: row;
+  align-items: center;
+  color: white;
+  height: 150px;
+  width: 500px;
+  padding: 20px;
+  border: 10px;
+  margin: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
 .siguenos p {
   opacity: 0.7;
-  margin: 40px 70px 0px 0px ;
+  margin: 40px 70px 0 0;
 }
+
+.one .caja1 {
+  color: white;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  flex: 1 1 0%;
+  gap: 10px;
+}
+
+.one .caja1 p {
+  opacity: 0.7;
+  margin: 40px 0 0 0;
+}
+
+.one .caja2 img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.titulo1 {
+  color: grey;
+  font-size: 22px;
+  padding-top: 30px;
+  margin: 3px;
+  text-align: center;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.two {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-top: 20px solid white;
+  gap: 8px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 0;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+
+.three {
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px #e5e7eb;
+  padding: 80px;
+  font-size: 40px #1f2937;
+}
+
+.four {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  padding: 30px  white;
+  border: 50px white;
+  font: 20px;
+}
+
+.botoncorreo button {
+  margin: 40px 0 0 0;
+  border: 5px white;
+  background: grey;
+  color: white;
+  display: block;
+  text-align: center;
+  width: 300px;
+  height: 80px;
+  border-radius: 7px;
+}
+
 .siguenos button {
-
-  margin: 20px 0px 40px 0px ;
-height: 30px;
+  margin: 20px 0 40px 0;
+  height: 30px;
 }
 
-
- .five {
-
-    background: #1F2937;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-font: 18px white;
-color:white ;
-height: 150px;
-
- }
+.five {
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 18px;
+  color: white;
+  height: 150px;
+}
